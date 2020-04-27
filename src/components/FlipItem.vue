@@ -44,12 +44,12 @@ export default {
 
 .card__face--front {
   background: #6889FF;
-  transform: rotateY( 180deg );
 }
 
 .card__face--back {
   background: #000;
   color: #fff;
+  transform: rotateY( 180deg );
 }
 
 .flip-enter .card {
